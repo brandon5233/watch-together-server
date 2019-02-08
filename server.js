@@ -1,6 +1,8 @@
 const websocket = require('ws').Server;
+const port = process.env.PORT || 80
 
-const wss = new websocket({port:5000});
+
+const wss = new websocket({port:port});
 chatHistory = [];
 initialData = {
     "from":"Brandon",

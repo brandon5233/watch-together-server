@@ -14,11 +14,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies":{
-    "ws":"6.1.3"
-  },
   "bugs": {
     "url": "https://github.com/brandon5233/watch-together-server/issues"
   },
-  "homepage": "https://github.com/brandon5233/watch-together-server#readme"
+  "homepage": "https://github.com/brandon5233/watch-together-server#readme",
+  "dependencies": {
+    "ws": "^6.1.3"
+  },
+  "engines":{
+  "node":"8.10.0"
+  }
 }
