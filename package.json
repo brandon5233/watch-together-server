@@ -20,6 +20,5 @@
   "homepage": "https://github.com/brandon5233/watch-together-server#readme",
   "dependencies": {
     "ws": "^6.1.3"
-  },
-  
+  }
 }
